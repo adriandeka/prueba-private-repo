@@ -1,0 +1,24 @@
+{
+  "name": "prueba-private-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriandeka/prueba-private-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "git@github.com:moment/moment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriandeka/prueba-private-repo/issues"
+  },
+  "homepage": "https://github.com/adriandeka/prueba-private-repo#readme"
+}
