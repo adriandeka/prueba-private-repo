@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
-"moment@git://github.com/moment/moment.git#semver:^2":
+moment@^2.29.1:
   version "2.29.1"
-  resolved "git://github.com/moment/moment.git#b7ec8e2ec068e03de4f832f28362675bb9e02261"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
+"package-private-repo@git+ssh://git@github.com:adriandeka/package-private.git#v1.0.0":
+  version "1.0.0"
+  resolved "git+ssh://git@github.com:adriandeka/package-private.git#56db9afb028d81351299117bc2f4f3c966346ac4"
