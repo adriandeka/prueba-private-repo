@@ -1,6 +1,8 @@
 FROM node:12-alpine
 
+RUN apk update
 RUN apk add git
+RUN apk add openssh
 
 LABEL maintainer="Telefonica I+D"
 
