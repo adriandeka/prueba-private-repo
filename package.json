@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "git://github.com/moment/moment.git#semver:^2"
+    "moment": "git+ssh://git@github.com:moment/moment#semver:^2"
   },
   "bugs": {
     "url": "https://github.com/adriandeka/prueba-private-repo/issues"
