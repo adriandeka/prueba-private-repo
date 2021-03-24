@@ -16,7 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.29.1",
-    "package-private-repo": "git+ssh://git@github.com:adriandeka/package-private.git#v1.0.0"
+    "package-private-repo": "git+ssh://git@github.com:adriandeka/package-private.git#v1.0.0",
+    "@xtreamr/ds_rabbitmq": "^1.1.0"
   },
   "bugs": {
     "url": "https://github.com/adriandeka/prueba-private-repo/issues"
