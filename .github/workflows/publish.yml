@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
+      - name: Install modules
+        run: yarn --production
       - name: Docker login
         uses: docker/login-action@v1
         with:
