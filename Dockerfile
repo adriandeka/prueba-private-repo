@@ -1,5 +1,7 @@
 FROM node:12-alpine
 
+RUN apk add git
+
 LABEL maintainer="Telefonica I+D"
 
 ARG GITHUB_TOKEN
