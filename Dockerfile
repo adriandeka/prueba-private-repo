@@ -3,6 +3,8 @@ FROM node:12-alpine
 RUN apk update
 RUN apk add git
 RUN apk add openssh
+RUN apk add openssh-keygen
+RUN ssh-keygen -R hostname
 
 LABEL maintainer="Telefonica I+D"
 
