@@ -15,7 +15,8 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_USERNAME: ${{ secrets.USERNAME }}
     steps:
-      - actions/checkout@v2
+      - uses: actions/checkout@v2
+      - run: git fetch --prune --unshallow
       - uses: webfactory/ssh-agent@v0.5.1
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
